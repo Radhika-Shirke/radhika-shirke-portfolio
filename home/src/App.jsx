@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./index.css";
+import Navbar from "./utils/navbar/navbar";
+import VideoShowcase from "./components/VideoShowcase";
 
 const App = () => (
   <div className="container">
-    {/* <div>Name: home</div>
-    <div>Framework: react</div>
-    <div>Language: JavaScript</div>
-    <div>CSS: Empty CSS</div> */}
+  <Navbar/>
+  <VideoShowcase/>
   </div>
 );
 const rootElement = document.getElementById("root")

@@ -1,0 +1,55 @@
+.video-showcase {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end; /* Align video to the right */
+  align-items: center;
+  overflow: hidden;
+  margin-top: 150px; /* Adjust margin to center skills */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  right: 0; /* Align video to the right */
+  width: 50%; /* Adjust width as needed */
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.skills {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0; /* Align skills to the left */
+  width: 50%; /* Adjust width as needed */
+  padding: 1rem;
+}
+
+.skill-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Make the skill images circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: float 3s ease-in-out infinite;
+}
+
+.skill-image:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

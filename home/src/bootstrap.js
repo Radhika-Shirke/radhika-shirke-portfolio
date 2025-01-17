@@ -1,2 +1,2 @@
-import 'about/AboutIndex'
-import 'contact/ContactIndex'
+// import 'about/AboutIndex'
+// import 'contact/ContactIndex'
