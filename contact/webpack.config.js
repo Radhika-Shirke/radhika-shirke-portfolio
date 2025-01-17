@@ -65,7 +65,7 @@ module.exports = (_, argv) => ({
       name: "contact",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {'./ContactIndex' : './src/index'},
       shared: {
         ...deps,
         react: {

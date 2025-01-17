@@ -1,1 +1,1 @@
-document.querySelector('#root').innerHTML = `<h1>About</h1>`
+import ("./App")

@@ -66,7 +66,8 @@ module.exports = (_, argv) => ({
       name: "home",
       filename: "remoteEntry.js",
       remotes: {
-        about: 'about@http://localhost:3004/remoteEntry.js'
+        about: 'about@http://localhost:3004/remoteEntry.js',
+        contact: 'contact@http://localhost:3006/remoteEntry.js'
       },
       exposes: {},
       shared: {
