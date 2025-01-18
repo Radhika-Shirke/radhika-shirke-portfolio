@@ -1,11 +1,11 @@
 import React from 'react';
 import './navbar.css'; // Import CSS file for styling
-import homeIcon from '../../assets/images/home.png'; // Import icons
-import aboutIcon from '../../assets/images/about.png';
-import projectIcon from '../../assets/images/project.png';
-import skillsIcon from '../../assets/images/skills.png';
-import contactIcon from '../../assets/images/contact.png';
-import resumeIcon from '../../assets/images/resume.png';
+import homeIcon from '../../assets/images/navbar-img/home.png'; // Import icons
+import aboutIcon from '../../assets/images/navbar-img/about.png';
+import projectIcon from '../../assets/images/navbar-img/project.png';
+import skillsIcon from '../../assets/images/navbar-img/skills.png';
+import contactIcon from '../../assets/images/navbar-img/contact.png';
+import resumeIcon from '../../assets/images/navbar-img/resume.png';
 
 const Navbar = () => {
   return (
